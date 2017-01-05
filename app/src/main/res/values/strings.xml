@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">DiarySchool</string>
-    <string name="Diary">Diary</string>
+    <string name="Diary">Diary beta</string>
     <string name="search_title">Search</string>
     <string name="menu_item_notification">Notification</string>
 </resources>
