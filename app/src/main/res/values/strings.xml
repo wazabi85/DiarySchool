@@ -5,4 +5,10 @@
     <string name="menu_item_notification">Notification</string>
     <string name="view_navigation_open">Open</string>
     <string name="view_navigation_close">Close</string>
+
+    <string name="tab_navigation_History">History</string>
+    <string name="tab_navigation_Ideas">Ideas</string>
+    <string name="tab_navigation_TODO">TODO</string>
+    <string name="tab_navigation_Birthdays">Birthdays</string>
+
 </resources>
