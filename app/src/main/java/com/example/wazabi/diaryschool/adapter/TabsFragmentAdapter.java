@@ -5,12 +5,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.example.wazabi.diaryschool.R;
 import com.example.wazabi.diaryschool.fragment.AbstractTabFragment;
 import com.example.wazabi.diaryschool.fragment.BirthdaysFragment;
-import com.example.wazabi.diaryschool.fragment.HistoryFragment;
-import com.example.wazabi.diaryschool.fragment.IdeasFragment;
-import com.example.wazabi.diaryschool.fragment.ToDoFragment;
+import com.example.wazabi.diaryschool.fragment.DiaryFragment;
+import com.example.wazabi.diaryschool.fragment.SheduleFragment;
+import com.example.wazabi.diaryschool.fragment.DZFragment;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -47,9 +46,9 @@ public class TabsFragmentAdapter extends FragmentPagerAdapter {
 
     private void initTabsMap(Context context) {
         tabs = new HashMap<>();
-        tabs.put(0, HistoryFragment.getInstance(context));
-        tabs.put(1, IdeasFragment.getInstance(context));
-        tabs.put(2, ToDoFragment.getInstance(context));
+        tabs.put(0, DiaryFragment.getInstance(context));
+        tabs.put(1, SheduleFragment.getInstance(context));
+        tabs.put(2, DZFragment.getInstance(context));
         tabs.put(3, BirthdaysFragment.getInstance(context));
     }
 }

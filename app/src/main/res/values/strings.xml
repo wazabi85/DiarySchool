@@ -17,5 +17,12 @@
     <string name="tab_navigation_TODO">Dz</string>
     <string name="tab_navigation_Birthdays">Note</string>
 
+    <string name="btn_monday">Monday</string>
+    <string name="btn_tuesday">Tuesday</string>
+    <string name="btn_wednesday">Wednesday</string>
+    <string name="btn_thursday">Thursday</string>
+    <string name="btn_friday">Friday</string>
+    <string name="btn_saturday">Saturday</string>
+
 
 </resources>

@@ -75,10 +75,13 @@ public class MainActivity extends AppCompatActivity {
                 switch (item.getItemId()) {
                     case R.id.actionNotificationItem:
                         showNoteficationTab();
+                        break;
                     case R.id.actionSettingItem:
                         showSettingTab();
+                        break;
                     case R.id.actionExitItem:
                         showExitTab();
+                        break;
                 }
                 return true;
             }
