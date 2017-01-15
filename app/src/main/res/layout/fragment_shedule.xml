@@ -9,41 +9,47 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnMonday"
-        android:layout_weight="0.10" />
+        android:layout_weight="0.10"
+        android:onClick="onClick" />
 
     <Button
         android:text="@string/btn_tuesday"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnTuesday"
-        android:layout_weight="0.10" />
+        android:layout_weight="0.10"
+        android:onClick="onClick"/>
 
     <Button
         android:text="@string/btn_wednesday"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnWednesday"
-        android:layout_weight="0.10" />
+        android:layout_weight="0.10"
+        android:onClick="onClick"/>
 
     <Button
         android:text="@string/btn_thursday"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnThursday"
-        android:layout_weight="0.10" />
+        android:layout_weight="0.10"
+        android:onClick="onClick"/>
 
     <Button
         android:text="@string/btn_friday"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnFriday"
-        android:layout_weight="0.10" />
+        android:layout_weight="0.10"
+        android:onClick="onClick"/>
 
     <Button
         android:text="@string/btn_saturday"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnSaturday"
-        android:layout_weight="0.10" />
+        android:layout_weight="0.10"
+        android:onClick="onClick"/>
 
 </LinearLayout>

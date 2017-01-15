@@ -1,5 +1,6 @@
 package com.example.wazabi.diaryschool;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
@@ -10,9 +11,13 @@ import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.wazabi.diaryschool.adapter.TabsFragmentAdapter;
+
+import static com.example.wazabi.diaryschool.R.id.activity_shedule;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -99,4 +104,30 @@ public class MainActivity extends AppCompatActivity {
     private void showNoteficationTab() {
         viewPager.setCurrentItem(Constants.TAB_ONE);
     }
+
+    public void onClick(View view) {
+        Intent intent = new Intent(this, Shedule.class);
+        switch (view.getId()){
+            case R.id.btnMonday:
+                startActivity(intent);
+                break;
+            case R.id.btnTuesday:
+                startActivity(intent);
+                break;
+            case R.id.btnWednesday:
+                startActivity(intent);
+                break;
+            case R.id.btnThursday:
+                startActivity(intent);
+                break;
+            case R.id.btnFriday:
+                startActivity(intent);
+                break;
+            case R.id.btnSaturday:
+                startActivity(intent);
+                break;
+        }
+    }
+
+
 }
