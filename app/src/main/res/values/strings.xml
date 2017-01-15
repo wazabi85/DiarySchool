@@ -1,14 +1,21 @@
 <resources>
     <string name="app_name">DiarySchool</string>
+
     <string name="Diary">Diary beta</string>
+
     <string name="search_title">Search</string>
+
     <string name="menu_item_notification">Notification</string>
+    <string name="menu_item_settings">Setting</string>
+    <string name="menu_item_Exit">Exit</string>
+
     <string name="view_navigation_open">Open</string>
     <string name="view_navigation_close">Close</string>
 
-    <string name="tab_navigation_History">History</string>
-    <string name="tab_navigation_Ideas">Ideas</string>
-    <string name="tab_navigation_TODO">TODO</string>
-    <string name="tab_navigation_Birthdays">Birthdays</string>
+    <string name="tab_navigation_History">Diary</string>
+    <string name="tab_navigation_Ideas">Schedule</string>
+    <string name="tab_navigation_TODO">Dz</string>
+    <string name="tab_navigation_Birthdays">Note</string>
+
 
 </resources>

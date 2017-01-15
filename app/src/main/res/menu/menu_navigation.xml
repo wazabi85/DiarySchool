@@ -7,4 +7,17 @@
         android:orderInCategory="1"
         android:title="@string/menu_item_notification" />
 
+    <item
+        android:id="@+id/actionSettingItem"
+        android:icon="@mipmap/ic_message_bulleted"
+        android:orderInCategory="2"
+        android:title="@string/menu_item_settings" />
+
+    <item
+        android:id="@+id/actionExitItem"
+        android:icon="@mipmap/ic_message_bulleted"
+        android:orderInCategory="3"
+        android:title="@string/menu_item_Exit" />
+
+
 </menu>
