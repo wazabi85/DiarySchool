@@ -3,7 +3,6 @@ package com.example.wazabi.diaryschool.fragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,16 +13,16 @@ import com.example.wazabi.diaryschool.R;
  * Created by wazabi on 05.01.2017.
  */
 
-public class BirthdaysFragment extends AbstractTabFragment {
+public class SiteFragment extends AbstractTabFragment {
 
     private static final int LAYOUT = R.layout.fragment_example;
 
-    public static BirthdaysFragment getInstance(Context context) {
+    public static SiteFragment getInstance(Context context) {
         Bundle args = new Bundle();
-        BirthdaysFragment fragment = new BirthdaysFragment();
+        SiteFragment fragment = new SiteFragment();
         fragment.setArguments(args);
         fragment.setContext(context);
-        fragment.setTitle(context.getString(R.string.tab_navigation_Birthdays));
+        fragment.setTitle(context.getString(R.string.tab_navigation_Site));
         return fragment;
     }
 

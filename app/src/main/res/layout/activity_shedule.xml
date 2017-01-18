@@ -2,37 +2,28 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/activity_shedule">
+    android:id="@+id/activity_shedule"
+    android:weightSum="1">
 
     <TextView
-        android:text="Урок 1"
+        android:text="День недели
+            1 Математика
+            2 Физкультура
+            3 Литература
+            4 Руский язык
+            5 Физика
+            6 Химия"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/textView1"
+        android:layout_weight="0.99" />
+
+    <Button
+        android:text="@string/send_shedule"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView1" />
-    <TextView
-        android:text="Урок 2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView2" />
-    <TextView
-        android:text="Урок 3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView3" />
-    <TextView
-        android:text="Урок 4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView4" />
-    <TextView
-        android:text="Урок 5"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView5" />
-    <TextView
-        android:text="Урок 6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView6" />
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/button"
+        android:onClick="smsSend"/>
 
 </LinearLayout>

@@ -15,7 +15,7 @@
     <string name="tab_navigation_History">Diary</string>
     <string name="tab_navigation_Ideas">Schedule</string>
     <string name="tab_navigation_TODO">Dz</string>
-    <string name="tab_navigation_Birthdays">Note</string>
+    <string name="tab_navigation_Site">Site</string>
 
     <string name="btn_monday">Monday</string>
     <string name="btn_tuesday">Tuesday</string>
@@ -23,6 +23,7 @@
     <string name="btn_thursday">Thursday</string>
     <string name="btn_friday">Friday</string>
     <string name="btn_saturday">Saturday</string>
+    <string name="send_shedule">Send Shedule</string>
 
 
 </resources>

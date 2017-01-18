@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
 import com.example.wazabi.diaryschool.fragment.AbstractTabFragment;
-import com.example.wazabi.diaryschool.fragment.BirthdaysFragment;
+import com.example.wazabi.diaryschool.fragment.SiteFragment;
 import com.example.wazabi.diaryschool.fragment.DiaryFragment;
 import com.example.wazabi.diaryschool.fragment.SheduleFragment;
 import com.example.wazabi.diaryschool.fragment.DZFragment;
@@ -49,6 +49,6 @@ public class TabsFragmentAdapter extends FragmentPagerAdapter {
         tabs.put(0, DiaryFragment.getInstance(context));
         tabs.put(1, SheduleFragment.getInstance(context));
         tabs.put(2, DZFragment.getInstance(context));
-        tabs.put(3, BirthdaysFragment.getInstance(context));
+        tabs.put(3, SiteFragment.getInstance(context));
     }
 }
