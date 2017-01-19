@@ -7,7 +7,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Wazabi"
+        android:text="Здесь будут дзпо спискам"
         android:layout_weight="0.24"
         android:textAlignment="center" />
 

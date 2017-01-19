@@ -15,7 +15,7 @@
             6 Химия"
         android:layout_width="100dp"
         android:layout_height="match_parent"
-        android:id="@+id/textView1"
+        android:id="@+id/sheduleText"
         android:layout_weight="0.99" />
 
     <Button

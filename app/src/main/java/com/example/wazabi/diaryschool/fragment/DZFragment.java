@@ -15,7 +15,7 @@ import com.example.wazabi.diaryschool.R;
 
 public class DZFragment extends AbstractTabFragment {
 
-    private static final int LAYOUT = R.layout.fragment_example;
+    private static final int LAYOUT = R.layout.fragment_dz;
 
     public static DZFragment getInstance(Context context) {
         Bundle args = new Bundle();

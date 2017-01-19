@@ -78,8 +78,8 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 drawerLayout.closeDrawers();
                 switch (item.getItemId()) {
-                    case R.id.actionNotificationItem:
-                        showNoteficationTab();
+                    case R.id.actionSite:
+                        showSite();
                         break;
                     case R.id.actionSettingItem:
                         showSettingTab();
@@ -93,16 +93,17 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void showSite() {
+        Intent intent = new Intent(this, Site.class);
+        startActivity(intent);
+    }
+
     private void showExitTab() {
         Toast.makeText(this,"Exit",Toast.LENGTH_SHORT).show();
     }
 
     private void showSettingTab() {
         Toast.makeText(this,"Setting",Toast.LENGTH_SHORT).show();
-    }
-
-    private void showNoteficationTab() {
-        viewPager.setCurrentItem(Constants.TAB_ONE);
     }
 
     public void onClick(View view) {
