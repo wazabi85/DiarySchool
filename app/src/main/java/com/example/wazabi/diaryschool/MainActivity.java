@@ -12,12 +12,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.Toast;
-
 import com.example.wazabi.diaryschool.adapter.TabsFragmentAdapter;
-
-import static com.example.wazabi.diaryschool.R.id.activity_shedule;
 
 public class MainActivity extends AppCompatActivity {
 

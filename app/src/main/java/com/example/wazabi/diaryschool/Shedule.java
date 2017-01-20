@@ -2,6 +2,7 @@ package com.example.wazabi.diaryschool;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -17,10 +18,16 @@ public class Shedule extends Activity {
     }
 
     public void smsSend(View view) {
-            Intent intent1 = new Intent(Intent.ACTION_VIEW);
-            String msg = ((TextView) findViewById(R.id.sheduleText)).getText().toString();
-            intent1.putExtra("sms_body", msg);
-            intent1.setType("vnd.android-dir/mms-sms");
-            startActivity(intent1);
+//            Intent intent1 = new Intent(Intent.ACTION_VIEW);
+//            String msg = ((TextView) findViewById(R.id.sheduleText)).getText().toString();
+//            intent1.putExtra("sms_body", msg);
+//            intent1.setType("vnd.android-dir/mms-sms");
+//            startActivity(intent1);
+
+        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.parse("smsto:+79220953242"));
+        intent.putExtra("sms_body", "Привет %)");
+        startActivity(intent);
+        return;
+
     }
 }
